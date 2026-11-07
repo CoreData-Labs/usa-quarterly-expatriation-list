@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Federal Register, Volume 65 Issue 238 (Monday, December 11, 2000)</title>
+</head>
+<body><pre>
+[Federal Register Volume 65, Number 238 (Monday, December 11, 2000)]
+[Notices]
+[Pages 77425-77426]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 00-31375]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Submission for OMB review; comment request
+
+
+  
+
+November 30, 2000.
+    The Department of Treasury has submitted the following public 
+information collection requirement(s) to OMB for review and clearance 
+under the Paperwork Reduction Act of 1995, Public Law 104-13. Copies of 
+the submission(s) may be obtained by calling the Treasury Bureau 
+Clearance Officer listed. Comments regarding this information 
+collection should be addressed to the OMB reviewer listed and to the 
+Treasury Department Clearance Officer, Department of the Treasury, Room 
+2110, 1425 New York Avenue, NW., Washington, DC 20220.
+
+DATES: Written comments should be received on or before January 10, 
+2001.
+
+Internal Revenue Service (IRS)
+
+    OMB Number: 1545-1151.
+    Form Number: IRS Form 8818.
+    Type of Review: Extension.
+    Title: Optional Form to Record Redemption of Series EE and I U.S. 
+Savings Bonds Issued After 1989.
+    Description: Under Internal Revenue Code section 135, if an 
+individual redeems U.S. Savings Bonds issued after 1989 and pays 
+qualified higher education expenses during the year, the interest on 
+the bonds is excludable from income. Form 8818 can be used to keep a 
+record of the bonds cashed so that the taxpayer can claim the proper 
+interest exclusion.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeepers: 25,000.
+    Estimated Burden Hours Per Respondent/Recordkeeper:
+
+------------------------------------------------------------------------
+                                                                Minutes
+------------------------------------------------------------------------
+Recordkeeping................................................         13
+Learning about the law or the form...........................          5
+Preparing the form...........................................         21
+------------------------------------------------------------------------
+
+    Frequency of Response: On occasion.
+    Estimated Total Reporting/Recordkeeping Burden: 32,000 hours.
+    OMB Number: 1545-1567.
+    Form Number: IRS Form 8854.
+    Type of Review: Extension.
+    Title: Expatriation Information Statement.
+    Description: Internal Revenue Code Section 6039G requires persons 
+who lost U.S. citizenship to provide information concerning 
+citizenship, income tax liability, net worth, and net assets. Form 8854 
+is used to report this information.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeepers: 11,000.
+    Estimated Burden Hours Per Respondent/Recordkeeper:
+
+------------------------------------------------------------------------
+                                   Part I  (in
+                                    minutes)          Parts I and II
+------------------------------------------------------------------------
+Recordkeeping..................              33  2 hr., 57 min.
+Learning about the law or the                13  26 min.
+ form.
+Preparing the form.............              40  1 hr., 24 min.
+Copying, assembling, and                     20  35 min.
+ sending the form to the IRS.
+------------------------------------------------------------------------
+
+
+[[Page 77426]]
+
+    Frequency of Response: Other (Once).
+    Estimated Total Reporting/Recordkeeping Burden: 23,060 hours.
+Clearance Officer: Garrick Shear, Internal Revenue Service, Room 5244, 
+1111 Constitution Avenue, NW, Washington, DC 20224
+OMB Reviewer: Alexander T. Hunt, (202) 395-7860, Office of Management 
+and Budget, Room 10202, New Executive Office Building, Washington, DC 
+20503
+
+Lois K. Holland,
+Departmental Reports Management Officer.
+[FR Doc. 00-31375 Filed 12-8-00; 8:45 am]
+BILLING CODE 4830-01-U
+
+
+</pre></body>
+</html>

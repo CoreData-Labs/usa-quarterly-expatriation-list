@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>Federal Register, Volume 81 Issue 39 (Monday, February 29, 2016)</title>
+</head>
+<body><pre>
+[Federal Register Volume 81, Number 39 (Monday, February 29, 2016)]
+[Notices]
+[Pages 10367-10369]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2016-04340]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Submission for OMB Review; Comment Request
+
+February 24, 2016.
+
+    The Department of the Treasury will submit the following 
+information collection requests to the Office of Management and Budget 
+(OMB) for review and clearance in accordance with the Paperwork 
+Reduction Act of 1995, Public Law 104-13, on or after the date of 
+publication of this notice.
+
+DATES: Comments should be received on or before March 30, 2016 to be 
+assured of consideration.
+
+ADDRESSES: Send comments regarding the burden estimates, or any other 
+aspect of the information collections, including suggestions for 
+reducing the burden, to (1) Office of Information and Regulatory 
+Affairs, Office of Management and Budget, Attention: Desk Officer for 
+Treasury, New Executive Office Building, Room 10235, Washington, DC 
+20503, or email at <a href="/cdn-cgi/l/email-protection#5e11170c1f010d2b3c33372d2d3731301e11131c701b110e70393128"><span class="__cf_email__" data-cfemail="c38c8a91829c90b6a1aeaab0b0aaacad838c8e81ed868c93eda4acb5">[email&#160;protected]</span></a> and (2) Treasury PRA 
+Clearance Officer, 1750 Pennsylvania Ave. NW., Suite 8117, Washington, 
+DC 20220, or email at <a href="/cdn-cgi/l/email-protection#d585879495a1a7b0b4a6a0a7acfbb2baa3"><span class="__cf_email__" data-cfemail="2f7f7d6e6f5b5d4a4e5c5a5d5601484059">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: Copies of the submissions may be 
+obtained by emailing <a href="/cdn-cgi/l/email-protection#7f2f2d3e3f0b0d1a1e0c0a0d0651181009"><span class="__cf_email__" data-cfemail="f5a5a7b4b5818790948680878cdb929a83">[email&#160;protected]</span></a>, calling (202) 622-1295, or 
+viewing the entire information collection request at <a href="http://www.reginfo.gov">www.reginfo.gov</a>.
+
+SUPPLEMENTARY INFORMATION: 
+
+Internal Revenue Service (IRS)
+
+    OMB Number: 1545-0192.
+    Type of Review: Extension of a currently approved collection.
+    Title: Tax on Accumulation Distribution of Trusts.
+    Abstract: Form 4970 is used by a beneficiary of a domestic or 
+foreign trust to compute the tax adjustment attributable to an 
+accumulation distribution. The form is used to verify whether the 
+correct tax has been paid on the accumulation distribution.
+    Estimated Total Annual Burden Hours: 42,900.
+
+    OMB Number: 1545-0228.
+    Type of Review: Extension of a currently approved collection.
+    Title: Form 6252--Installment Sale Income.
+    Abstract: Information is needed to figure and report an installment 
+sale for a casual or incidental sale of personal property, and a sale 
+of real property by someone not in the business of selling real estate. 
+Data is used to determine whether the installment sale has been 
+properly reported and the correct amount of profit is included in 
+income on the taxpayer's return.
+    Estimated Total Annual Burden Hours: 1,597,008.
+
+    OMB Number: 1545-0865.
+    Type of Review: Extension of a currently approved collection.
+    Title: Form 8918--Material Advisor Disclosure Statement.
+    Abstract: The American Jobs Creation Act of 2004, Public Law 108-
+357, 118 Stat. 1418, (AJCA) was enacted on October 22, 2004. Section 
+815 of the AJCA amended section 6111 to require each material advisor 
+with respect to any reportable transaction to make a return (in such 
+form as the Secretary may prescribe) setting forth: (1) Information 
+identifying and describing the transaction; (2) information describing 
+any potential tax benefits expected to result from the transaction; and 
+(3) such other information as the Secretary may prescribe.
+    Estimated Total Annual Burden Hours: 5,096.
+
+    OMB Number: 1545-0940.
+    Type of Review: Extension of a currently approved collection.
+    Title: TD 8086--Election for $10 Million Limitation on Exempt Small 
+Issues of Industrial Development Bonds; Supplemental Capital 
+Expenditure Statements (LR-185-84 Final).
+    Abstract: The regulation liberalizes the procedure by which the 
+state or local government issuer of an exempt small issue of tax-exempt 
+bonds elects the $10 million limitation upon the size of such issue and 
+deletes the
+
+[[Page 10368]]
+
+requirement to file certain supplemental capital expenditure 
+statements.
+    Estimated Total Annual Burden Hours: 1,000.
+
+    OMB Number: 1545-0945.
+    Type of Review: Extension of a currently approved collection.
+    Title: TD 7852--Registration Requirements with Respect to Deb 
+Obligations (NPRM, LR-255-82).
+    Abstract: The rule requires an issuer of a registration-required 
+obligation and any person holding the obligation as a nominee or 
+custodian on behalf of another to maintain ownership records in a 
+manner which will permit examination by the IRS in connection with 
+enforcement of the Internal Revenue laws.
+    Estimated Total Annual Burden Hours: 50,000.
+
+    OMB Number: 1545-0976.
+    Type of Review: Revision of a currently approved collection.
+    Title: Form 990-W, Estimated Tax on Unrelated Business Taxable 
+Income for Tax-Exempt Organizations.
+    Abstract: Form 990-W is used by tax-exempt trusts and tax-exempt 
+corporations to figure estimated tax liability on unrelated business 
+income and on investment income for private foundations and the amount 
+of each installment payment. Form 990-W is a worksheet only. It is not 
+required to be filed.
+    Estimated Total Annual Burden Hours: 281,493.
+
+    OMB Number: 1545-1016.
+    Type of Review: Extension of a currently approved collection.
+    Title: Return of Excise Tax on Undistributed Income of Regulated 
+Investment Companies.
+    Abstract: Form 8613 is used by regulated investment companies to 
+compute and pay the excise tax on undistributed income imposed under 
+section 4982. IRS uses the information to verify that the correct 
+amount of tax has been reported.
+    Estimated Total Annual Burden Hours: 17,820.
+
+    OMB Number: 1545-1060.
+    Type of Review: Extension of a currently approved collection.
+    Title: Application for Withholding Certificate for Dispositions by 
+Foreign Persons of U.S. Real Property Interests.
+    Abstract: Form 8288-B is used to apply for a withholding 
+certification from IRS to reduce or eliminate the withholding required 
+by section 1445.
+    Estimated Total Annual Burden Hours: 29,256.
+
+    OMB Number: 1545-1069.
+    Type of Review: Extension of a currently approved collection.
+    Title: EE-175-86 (Final) Certain Cash or Deferred Arrangements and 
+Employee and Matching Contributions under Employee Plans: REG-108639-99 
+(NPRM) Retirement Plans; Cash or Deferred Arrangements.
+    Abstract: The IRS needs this information to insure compliance with 
+sections 401(k), 401(m), and 4979 of the Internal Revenue Code. Certain 
+additional taxes may be imposed if sections 401(k) and 401(m) are not 
+complied with.
+    Estimated Total Annual Burden Hours: 1,060,000.-
+    OMB Number: 1545-1442.
+    Type of Review: Extension of a currently approved collection.
+    Title: T.D. 8633--Grantor Trust Reporting Requirements.
+    Abstract: The information required by these regulations is used by 
+the Internal Revenue Service to ensure that items of income, deduction, 
+and credit of a trust as owned by the grantor or another person are 
+properly reported.
+    Estimated Total Annual Burden Hours: 920,000.
+
+    OMB Number: 1545-1444.
+    Type of Review: Extension of a currently approved collection.
+    Title: Form 8844, Empowerment Zone Employment Credit.
+    Abstract: The empowerment zone employment (EZE) credit is part of 
+the general business credit under section 38. However, unlike the other 
+components of the general business credit, taxpayers are allowed to 
+offset 25 percent of their alternative minimum tax with the EZE credit.
+    Estimated Total Annual Burden Hours: 237,600.
+
+    OMB Number: 1545-1538.
+    Type of Review: Extension of a currently approved collection.
+    Title: Notice 97-34, Information Reporting on Transactions With 
+Foreign Trusts and on Large Foreign Gifts.
+    Abstract: This notice provides guidance on the foreign trust and 
+foreign gift information reporting provisions contained in the Small 
+Business Job Protection Act of 1996.
+    Affected Public: Businesses or other for-profits.
+    Estimated Total Annual Burden Hours: 3,750.
+
+    OMB Number: 1545-1699.
+    Type of Review: Revision of a currently approved collection.
+    Title: TD 9002 (TD 9715)--Agent for Consolidated Group; Rev Proc 
+2015-26 (Rev Proc 2002-43)--Determination of a Substitute Agent for a 
+Consolidated Group.
+    Abstract: Section 1501 of the Internal Revenue Code (the ``Code'') 
+states that an affiliated group of corporations shall have the 
+privilege of making a consolidated return with respect to the Federal 
+income taxes for the taxable year in lieu of separate returns.
+    Section 1502 of the Code states that the Secretary of the Treasury 
+shall prescribe such regulations as deemed necessary in order to 
+determine, compute and assess the Federal income tax liability of any 
+affiliated group of corporations making a consolidated Federal income 
+tax return.
+    The rules in Treas. Reg. Sec. Sec.  1.1502-77, 1.1502-77A, and 
+1.1502-77B, Rev. Proc. 2002-43 and Rev. Proc. 2015-26 necessitate 
+collecting information from taxpayers in order for the Commissioner to 
+more effectively communicate with the agent to determine the group's 
+federal income tax liability.
+    Affected Public: Businesses or other for-profits.
+    Estimated Total Annual Burden Hours: 400.
+
+    OMB Number: 1545-1816.
+    Type of Review: Extension of a currently approved collection.
+    Title: TD 9054--Disclosure of Returns and Return Information to 
+Designee of Taxpayer (as amended by TD 9618).
+    Abstract: Under section 6103(a), returns and return information are 
+confidential unless disclosure is otherwise authorized by the Code. 
+Section 6103(c), as amended in 1996 by section 1207 of the Taxpayer 
+Bill of Rights II, Public Law 104-168 (110 Stat. 1452), authorizes the 
+IRS to disclose returns and return information to such person or 
+persons as the taxpayer may designate in a request for or consent to 
+disclosure, or to any other person at the taxpayer's request to the 
+extent necessary to comply with a request for information or assistance 
+made by the taxpayer to such other person. Disclosure is permitted 
+subject to such requirements and conditions as may be prescribed by 
+regulations.
+    Estimated Total Annual Burden Hours: 800.
+
+    OMB Number: 1545-1818.
+    Type of Review: Extension of a currently approved collection.
+    Title: Rev. Proc. 2003-38, Commercial Revitalization Deduction.
+    Abstract: Pursuant to Sec. 1400I of the Internal Revenue Code, this 
+procedure provides the time and manner for states to make allocations 
+of commercial revitalization expenditures to a new or substantially 
+rehabilitated building that is placed in service in a renewal 
+community.
+    Estimated Total Annual Burden Hours: 200.
+
+    OMB Number: 1545-1826.
+
+[[Page 10369]]
+
+    Type of Review: Extension of a currently approved collection.
+    Title: Excise Tax on Structured Settlement Factoring Transactions.
+    Abstract: Form 8876 is used to report and pay the 40% excise tax 
+imposed Under section 5891 on the factoring discount of a structured 
+settlement factoring transaction.
+    Estimated Total Annual Burden Hours: 560.
+
+    OMB Number: 1545-1974.
+    Type of Review: Revision of a currently approved collection.
+    Title: Schedule C (Form 1040), Profit or Loss From Business.
+    Abstract: Schedule C (Form 1040) is used by individuals to report 
+their business income, loss and expenses. The data is used to verify 
+that the items reported on the form is correct and also for general 
+statistical use.
+    Estimated Total Annual Burden Hours: 72,201,704.
+
+    OMB Number: 1545-2001.
+    Type of Review: Extension of a currently approved collection.
+    Title: Rev. Proc. 2006-16, Renewal Community Depreciation 
+Provisions.
+    Abstract: This revenue procedure provides the time and manner for 
+states to make retroactive allocations of commercial revitalization 
+expenditure amounts to certain buildings placed is service in the 
+expanded area of renewal community pursuant to Sec. 1400E(g) of the 
+Internal Revenue Code.
+    Estimated Total Annual Burden Hours: 150.
+
+    OMB Number: 1545-2007.
+    Type of Review: Revision of a currently approved collection.
+    Title: Employer's Annual Employment Tax Return.
+    Abstract: Form 944, Employer's Annual Federal Tax Return, is 
+designed so the smallest employers (those whose annual liability for 
+social security, Medicare, and withheld federal income taxes is $1,000 
+or less) will file and pay these taxes only once a year instead of 
+every quarter. Form 944 is also provided in Spanish, Form 944(SP). 
+Employers who discover they under or over withheld income taxes from 
+wages or social security or Medicare tax in a prior year use Form 944-X 
+to report those taxes and either make a payment, claim a refund, or 
+request an abatement. Form 944-X is also available in Spanish, Form 
+944-X(SP).
+    Estimated Total Annual Burden Hours: 2,191,570.
+
+    OMB Number: 1545-2010.
+    Type of Review: Extension of a currently approved collection.
+    Title: Employer's Annual Federal Tax Return (American Samoa, Guam, 
+the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin 
+Islands).
+    Abstract: Form 944-SS and Form 944-PR are designed so the smallest 
+employers (those whose annual liability for social security and 
+Medicare taxes is $1,000 or less) will have to file and pay these taxes 
+only once a year instead of every quarter.
+    Estimated Total Annual Burden Hours: 191,200.
+
+    OMB Number: 1545-2011.
+    Type of Review: Extension of a currently approved collection.
+    Title: Certification of Intent to Adopt a Pre-approved Plan.
+    Abstract: Use Form 8905 to treat an employer's plan as a pre-
+approved plan and therefore eligible for the six-year remedial 
+amendment cycle of Part IV of Revenue Procedure 2005-66, 2005-37 I.R.B. 
+509. This form is filed with other document(s).
+    Estimated Total Annual Burden Hours: 82,360.
+
+    OMB Number: 1545-2123.
+    Type of Review: Extension of a currently approved collection.
+    Title: Notice 2009-85, Guidance for Expatriates and Recipients of 
+Foreign Source Gifts and Bequests Under Sections 877A, 2801, and 6039G.
+    Abstract: Section 301 of the Heroes Earnings Assistance and Relief 
+Tax Act of 2008 (the ``Act'') enacted new sections 877A and 2801 of the 
+Internal Revenue Code (``Code''), amended sections 6039G and 7701(a), 
+made conforming amendments to sections 877(e) and 7701(b), and repealed 
+section 7701(n). This notice provides guidance regarding certain 
+federal tax consequences under these sections for individuals who 
+renounce U.S. citizenship or cease to be taxed as lawful permanent 
+residents of the United States.
+    Estimated Total Annual Burden Hours: 420.
+
+    OMB Number: 1545-2205.
+    Type of Review: Revision of a currently approved collection.
+    Title: Form 1099-K, Payment Card and Third Party Network 
+Transactions.
+    Abstract: This form is in response to section 3091(a) of Public Law 
+110-289, the Housing Assistance Tax Act of 2008 (Div. C of the Housing 
+and Economic Recovery Act of 2010). The form reflects payments made in 
+settlement of payment card and third party network transactions for 
+purchases of goods and/or services made with payment cards and through 
+third party networks.
+    Estimated Total Annual Burden Hours: 4,529,328.
+
+    OMB Number: 1545-2233.
+    Type of Review: Extension of a currently approved collection.
+    Title: Notice 2012-48--Tribal Economic Development Bonds.
+    Abstract: This Notice solicits applications for the reallocation of 
+available amounts of national bond issuance authority limitation for 
+tribal economic development bonds (``Tribal Economic Development 
+Bonds'') that were previously allocated to eligible issuers by the 
+Internal Revenue Service (``IRS'') and that have not been used. This 
+Notice also provides related guidance on: (1) The application 
+requirements and forms for requests for volume cap allocations, and (2) 
+the method that the IRS and the Department of the Treasury will use to 
+allocate the volume cap.
+    Affected Public: State, Local, or Tribal Governments.
+    Estimated Total Annual Burden Hours: 1,001.
+
+    OMB Number: 1545-2260.
+    Type of Review: Extension of a currently approved collection.
+    Title: Suspension of Benefits Under the Multiemployer Pension 
+Reform Act of 2014; Administration of Multiemployer Plan Participant 
+Vote.
+    Abstract: Respondents are sponsors of collectively bargained 
+retirement trusts in significant financial distress. The MPRA allows a 
+respondent to apply to Treasury for approval to suspend benefit 
+payments. If an application is approved, Treasury must then administer 
+a vote by participants on whether to accept or reject the suspension. 
+The regulation provides detailed voting procedures. The information 
+collection is necessary to establish the voting process.
+    Affected Public: Businesses or other for-profits.
+    Estimated Total Annual Burden Hours: 14,000.
+
+Brenda Simms,
+Treasury PRA Clearance Officer.
+[FR Doc. 2016-04340 Filed 2-26-16; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

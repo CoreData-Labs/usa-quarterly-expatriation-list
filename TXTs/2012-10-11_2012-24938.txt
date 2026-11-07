@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Federal Register, Volume 77 Issue 197 (Thursday, October 11, 2012)</title>
+</head>
+<body><pre>
+[Federal Register Volume 77, Number 197 (Thursday, October 11, 2012)]
+[Notices]
+[Pages 61832-61833]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2012-24938]
+
+
+
+[[Page 61832]]
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Internal Revenue Service
+
+
+Proposed Collection; Comment Request for Information Collection 
+Tools
+
+AGENCY: Internal Revenue Service (IRS), Treasury.
+
+ACTION: Notice and request for comments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Department of the Treasury, as part of its continuing 
+effort to reduce paperwork and respondent burden, invites the general 
+public and other Federal agencies to take this opportunity to comment 
+on proposed and/or continuing information collections, as required by 
+the Paperwork Reduction Act of 1995, Public Law 104-13 (44 U.S.C. 
+3506(c)(2)(A)). Currently, the IRS is soliciting comments concerning 
+Notice 2009-85, Guidance for Expatriates and Recipients of Foreign 
+Source Gifts and Bequests Under Sections 877A, 2801, and 6039G; Form 
+1120-FSC, U.S. Income Tax Return of a Foreign Sales Corporation, and 
+Schedule P (Form 1120-FSC), Transfer Price or Commission; Form 8288-B, 
+Application for Withholding Certificate for Dispositions by Foreign 
+Persons of U.S. Real Property Interests; PS-79-93 (TD 8633), Grantor 
+Trust Reporting Requirements (Sec.  1.674-4); and Form 8844, 
+Empowerment Zone Employment Credit.
+
+DATES: Written comments should be received on or before December 10, 
+2012 to be assured of consideration.
+
+ADDRESSES: Direct all written comments to Yvette Lawrence, Internal 
+Revenue Service, room 6129, 1111 Constitution Avenue NW., Washington, 
+DC 20224. Please send separate comments for each specific information 
+collection listed below. You must reference the information 
+collection's title, form number, reporting or record-keeping 
+requirement number, and OMB number (if any) in your comment.
+
+FOR FURTHER INFORMATION CONTACT: Requests for additional information or 
+copies of the collection tools should be directed to R. Joseph Durbala, 
+Internal Revenue Service, room 6129, 1111 Constitution Avenue NW., 
+Washington, DC 20224, or at (202)622-3634, or through the internet at 
+<a href="/cdn-cgi/l/email-protection#a3f1e9ccd0c6d3cb8de7d6d1c1c2cfc2e3cad1d08dc4ccd5"><span class="__cf_email__" data-cfemail="45170f2a3620352d6b01303727242924052c37366b222a33">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: Currently, the IRS is seeking comments 
+concerning the following information collection tools, reporting, and 
+record-keeping requirements:
+    (1) Title: Guidance for Expatriates and Recipients of Foreign 
+Source Gifts and Bequests Under Sections 877A, 2801, and 6039G.
+    OMB Number: 1545-2123.
+    Form Number: Notice 2009-85.
+    Abstract: Section 301 of the Heroes Earnings Assistance and Relief 
+Tax Act of 2008 (the ``Act'') enacted new sections 877A and 2801 of the 
+Internal Revenue Code (``Code''), amended sections 6039G and 7701(a), 
+made conforming amendments to sections 877(e) and 7701(b), and repealed 
+section 7701(n). This notice provides guidance regarding certain 
+federal tax consequences under these sections for individuals who 
+renounce U.S. citizenship or cease to be taxed as lawful permanent 
+residents of the United States.
+    Current Actions: There are no changes to the previously approved 
+burden of this existing collection.
+    Type of Review: Extension of a currently approved collection.
+    Affected Public: Individuals or households.
+    Estimated Number of Respondents: 100.
+    Estimated Time per Respondent: 4 hrs., 17 min.
+    Estimated Total Annual Burden Hours: 420.
+    (2) Title: Form 1120-FSC, U.S. Income Tax Return of a Foreign Sales 
+Corporation, and Schedule P (Form 1120-FSC), Transfer Price or 
+Commission.
+    OMB Number: 1545-0935.
+    Form Number: 1120-FSC and Schedule P (Form 1120-FSC).
+    Abstract: Form 1120-FSC is filed by foreign corporations that have 
+elected to be FSCs or small FSCs. The FSC uses Form 1120-FSC to report 
+income and expenses and to figure its tax liability. IRS uses Form 
+1120-FSC and Schedule P (Form 1120-FSC) to determine whether the FSC 
+has correctly reported its income and expenses and figured its tax 
+liability correctly.
+    Current Actions: There are no changes being made to the revenue 
+procedure at this time.
+    Type of Review: Extension of a currently approved collection.
+    Affected Public: Business or other for-profit organizations.
+    Estimated Number of Respondents: 30,000.
+    Estimated Time per Respondent: 165 hrs., 37 min.
+    Estimated Total Annual Reporting Burden hours: 1,088,250.
+    (3) Title: Application for Withholding Certificate for Dispositions 
+by Foreign Persons of U.S. Property Interests.
+    OMB Number: 1545-1060.
+    Form Number: 8288-B.
+    Abstract: Section 1445 of the Internal Revenue Code requires 
+transferees to withhold tax on the amount realized from sales or other 
+dispositions by foreign persons of U.S. real property interests. Code 
+sections 1445(b) and (c) allow the withholding to be reduced or 
+eliminated under certain circumstances. Form 8288-B is used to apply 
+for a withholding certificate from IRS to reduce or eliminate the 
+withholding required by Code section 1445.
+    Current Actions: There is no change in the paperwork burden 
+previously approved by OMB.
+    Type of Review: Extension of a currently approved collection.
+    Affected Public: Business or other for-profit organizations and 
+individuals or households.
+    Estimated Number of Respondents: 5,079.
+    Estimated Time per Respondent: 6 hrs., 8 min.
+    Estimated Total Annual Burden Hours: 31,135.
+    (4) Title: Grantor Trust Reporting Requirements.
+    OMB Number: 1545-1442.
+    Form Number: PS-79-93.
+    Abstract: The information required by these regulations is used by 
+the Internal Revenue Service to ensure that items of income, deduction, 
+and credit of a trust as owned by a grantor or another person are 
+properly reported.
+    Current Actions: There is no change in the paperwork burden 
+previously approved by OMB.
+    Type of Review: Extension of a currently approved collection.
+    Affected Public: Business or other for-profit organizations and 
+individuals or households.
+    Estimated Number of Respondents: 1,840,000.
+    Estimated Time per Respondent: 30 min.
+    Estimated Total Annual Burden Hours: 920,000.
+    (5) Title: Empowerment Zone Employment Credit.
+    OMB Number: 1545-1444.
+    Form Number: 8844.
+    Abstract: Employers who hire employees who live and work in one of 
+the eleven designated empowerment zones can receive a tax credit for 
+the first $15,000 of wages paid to each employee.
+    Current Actions: There is no change in the paperwork burden 
+previously approved by OMB.
+    Type of Review: Extension of a currently approved collection.
+    Affected Public: Business or other for-profit organizations, 
+individuals or households, farms and non-profit institutions.
+
+[[Page 61833]]
+
+    Estimated Number of Respondents: 40,000.
+    Estimated Time per Respondent: 8 hrs., 5 min.
+    Estimated Total Annual Burden Hours: 237,600.
+    The following paragraph applies to all of the collections of 
+information covered by this notice:
+    An agency may not conduct or sponsor, and a person is not required 
+to respond to, a collection of information unless the collection of 
+information displays a valid OMB control number. Books or records 
+relating to a collection of information must be retained as long as 
+their contents may become material in the administration of any 
+internal revenue law. Generally, tax returns and tax return information 
+are confidential, as required by 26 U.S.C. 6103.
+    Request for Comments: Comments submitted in response to this notice 
+will be summarized and/or included in the request for OMB approval. All 
+comments will become a matter of public record. Comments are invited 
+on: (a) Whether the collection of information is necessary for the 
+proper performance of the functions of the agency, including whether 
+the information shall have practical utility; (b) the accuracy of the 
+agency's estimate of the burden of the collection of information; (c) 
+ways to enhance the quality, utility, and clarity of the information to 
+be collected; (d) ways to minimize the burden of the collection of 
+information on respondents, including through the use of automated 
+collection techniques or other forms of information technology; and (e) 
+estimates of capital or start-up costs and costs of operation, 
+maintenance, and purchase of services to provide information.
+
+    Approved: September 24, 2012.
+R. Joseph Durbala,
+IRS Reports Clearance Officer.
+[FR Doc. 2012-24938 Filed 10-10-12; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

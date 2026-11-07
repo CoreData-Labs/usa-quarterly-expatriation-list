@@ -1,0 +1,410 @@
+<html>
+<head>
+<title>Federal Register, Volume 74 Issue 204 (Friday, October 23, 2009)</title>
+</head>
+<body><pre>
+[Federal Register Volume 74, Number 204 (Friday, October 23, 2009)]
+[Notices]
+[Pages 54879-54881]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: E9-25578]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Submission for OMB Review; Comment Request
+
+October 19, 2009.
+    The Department of Treasury will submit the following public 
+information collection requirement(s) to OMB for review and clearance 
+under the Paperwork Reduction Act of 1995, Public Law 104-13 on or 
+after the date of publication of this notice. Copies of the 
+submission(s) may be obtained by calling the Treasury Bureau Clearance 
+Officer listed. Comments regarding this information collection should 
+be addressed to the OMB reviewer listed and to the Treasury Department 
+Clearance Officer, Department of the Treasury, Room 11000, and 1750 
+Pennsylvania Avenue, NW., Washington, DC 20220.
+    Dates: Written comments should be received on or before November 
+23, 2009 to be assured of consideration.
+
+Internal Revenue Service (IRS)
+
+    OMB Number: 1545-0975.
+    Type of Review: Revision.
+    Title: Estimated Tax for Corporations.
+    Form: 1120-W; Schedule A (Part 1); Schedule A (Part II); Schedule A 
+(Part III).
+    Description: Form 1120-W is used by corporations to figure 
+estimated tax liability and the amount of each installment payment. 
+Form 1120-W is a worksheet only. It is not to be filed with the 
+Internal Revenue Service.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 12,832,766 hours.
+
+    OMB Number: 1545-0712.
+    Type of Review: Extension.
+    Title: Risk Limitations.
+    Form: 6198.
+    Description: IRC section 465 requires taxpayers to limit their at-
+risk loss to the lesser of the loss or their amount at risk. Form 6198 
+is used by taxpayers to determine their deductible loss and by IRS to 
+verify the amount deducted.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 914,419 hours.
+
+    OMB Number: 1545-0976.
+    Type of Review: Revision.
+    Title: Estimated Tax on Unrelated Business Taxable Income for Tax-
+Exempt Organizations.
+    Form: 990-W; Schedule A (Part I); Schedule A (Part II); Schedule A 
+(Part III).
+    Description: Form 990-W is used by tax-exempt trusts and tax-exempt 
+corporations to figure estimated tax liability on unrelated business 
+income and on investment income for private foundations and the amount 
+of each installment payment. Form 990-W is a worksheet only. It is not 
+required to be filed.
+    Respondents: Businesses or other for-profits; Not-for-profit 
+institutions.
+    Estimated Total Burden Hours: 220,310 hours.
+
+    OMB Number: 1545-2010.
+    Type of Review: Extension.
+    Title: Employer's Annual Federal Tax Return (American Samoa, Guam, 
+the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin 
+Islands).
+    Form: 944-SS; 944-PR.
+    Description: Form 944-SS and Form 944-PR are designed so the 
+smallest employers (those whose annual liability for social security 
+and Medicare taxes is $1,000 or less) will have to file and pay these 
+taxes only once a year instead of every quarter.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 191,200 hours.
+
+    OMB Number: 1545-1818.
+    Type of Review: Extension.
+    Title: Rev. Proc. 2003-38, Commercial Revitalization Deduction.
+    Description: Pursuant to Sec. 1400I of the Internal Revenue Code, 
+this procedure provides the time and manner for states to make 
+allocations of commercial revitalization expenditures to a new or 
+substantially rehabilitated building that is placed in service in a 
+renewal community.
+    Respondents: State, Local, and Tribal Governments.
+    Estimated Total Burden Hours: 200 hours.
+
+    OMB Number: 1545-1834.
+    Type of Review: Extension.
+    Title: Revenue Procedure 2003-39, Section 1031 LKE (Like-Kind 
+Exchanges) Auto Leasing Programs.
+    Description: Revenue Procedure 2003-39 provides safe harbors for 
+certain aspects of the qualification under Sec. 1031 of certain 
+exchanges of property pursuant to LKE Programs for federal income tax 
+purposes.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 8,600 hours.
+
+    OMB Number: 1545-1502.
+    Type of Review: Extension.
+    Title: Form 5304-SIMPLE; Form 5305-SIMPLE; Notice 98-4.
+    Form: 5304-SIMPLE; 5305 SIMPLE.
+    Description: Forms 5304-SIMPLE and 5035-SIMPLE are used by an 
+employer to permit employees to make salary reduction contributions to 
+a savings incentive match plan (SIMPLE IRA) described in Code section 
+408(p). These forms are not to be filed with IRS, but to be retained in 
+the employers' records as proof of establishing such a plan, thereby 
+justifying a deduction for contributions made to the SIMPLE IRA. The 
+data is used to verify the deduction. Notice 98-4 provides guidance for 
+employers and trustees regarding how they can comply with the 
+requirements of Code section 408(p) in establishing and maintaining a 
+SIMPLE Plan
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 2,113,000 hours.
+
+    OMB Number: 1545-1069.
+    Type of Review: Extension.
+    Title: EE-175-86 (Final) Certain Cash or Deferred Arrangements and 
+Employee and Matching Contributions under Employee Plans: REG-108639-99 
+(NPRM) Retirement Plans; Cash or Deferred Arrangements.
+    Description: The IRS needs this information to insure compliance 
+with sections 401(k), 401(m), and 4979 of the Internal Revenue Code. 
+Certain additional taxes may be imposed if sections 401(k) and 401(m) 
+are not complied with.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 1,060,000 hours.
+
+    OMB Number: 1545-1699.
+    Type of Review: Extension.
+    Title: REG-103805-99 (Final) Agent for Consolidated Group.
+    Description: The information is needed in order for a terminating 
+common parent of a consolidated group to designate a substitute agent 
+for the
+
+[[Page 54880]]
+
+group and receive approval of the Commissioner, or for a default 
+substitute agent to notify the Commissioner that it is the default 
+substitute agent, pursuant to Trea. Reg. Sec. 1.1502-77(d). The 
+Commissioner will use the information to determine whether to approve 
+the designation of the substitute agent (if approval is required) and 
+to change the IRS's records to reflect the information about the 
+substitute agent.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 200 hours.
+
+    OMB Number: 1545-2000.
+    Type of Review: Extension.
+    Title: Notice 2006-40, Credit for Production from Advanced Nuclear 
+Facilities.
+    Description: This notice provides the time and manner for a 
+taxpayer to apply for an allocation of the national megawatt capacity 
+limitation under Sec. 45J of the Internal Revenue Code. This 
+information will be used to determine the portion of the national 
+megawatt capacity limitation to which a taxpayer is entitled. The 
+likely respondents are corporations and partnerships.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 600 hours.
+
+    OMB Number: 1545-1690.
+    Type of Review: Extension.
+    Title: Notice 2000-28 Coal Exports.
+    Description: Notice 2000-28 provides guidance relating to the coal 
+excise tax imposed by section 4121 of the Internal Revenue Code. The 
+notice provides rules under the Code for making a nontaxable sale of 
+coal for export or for obtaining a credit or refund when tax has been 
+paid with respect to a nontaxable sale or coal for export.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 400 hours.
+
+    OMB Number: 1545-0902.
+    Type of Review: Extension.
+    Title: Form 8288, U.S. Withholding Tax Return for Dispositions by 
+Foreign Persons of U.S. Real Property Interests: Form 8288-A, Statement 
+of Withholding on Dispositions by Foreign Persons.
+    Form: 8288; 8288-A.
+    Description: Form 8288 is used by the withholding agent to report 
+and transmit the withholding to IRS. Form 8288-A is used to validate 
+the withholding and to return a copy to the transferor for his/her use 
+in filing a tax return.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 243,675 hours.
+
+    OMB Number: 1545-1538.
+    Type of Review: Extension.
+    Title: Notice 97-34, Information Reporting on Transactions With 
+Foreign Trusts and on Large Foreign Gifts.
+    Description: This notice provides guidance on the foreign trust and 
+foreign gift information reporting provisions contained in the Small 
+Business Job Protection Act of 1996.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 3,750 hours.
+
+    OMB Number: 1545-1444.
+    Type of Review: Extension.
+    Title: Empowerment Zone Employment Credit.
+    Form: 8844.
+    Description: Employers who hire employees who live and work in one 
+of the 11 designated empowerment zones can receive a tax credit for the 
+first $15,000 of wages paid to each employee. The credit is applicable 
+from the date of designation through the year 2004.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 237,600 hours.
+
+    OMB Number: 1545-1020.
+    Type of Review: Extension.
+    Title: Allocation of Estimated Tax Payments to Beneficiaries.
+    Form: 1041-T.
+    Description: This form was developed to allow a trustee of a trust 
+or an executor of an estate to make an election under IRC section 
+643(g) to allocate any payment of estimated tax to a beneficiary(ies). 
+This form serves as a transmittal so that Service Center personnel can 
+determine the correct amounts that are to be transferred from the 
+fiduciary's account to the individual's account.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 990 hours.
+
+    OMB Number: 1545-0129.
+    Type of Review: Extension.
+    Title: U.S. Income Tax Return for Certain Political Organizations.
+    Form: 1120-POL.
+    Description: Certain political organizations file Form 1120-POL to 
+report the tax imposed by section 527. The form is used to designate a 
+principal business campaign committee that is subject to a lower rate 
+of tax under section 527(h). IRS uses Form 1120-POL to determine if the 
+proper tax was paid.
+    Respondents: Not-for-profit institutions.
+    Estimated Total Burden Hours: 239,150 hours.
+
+    OMB Number: 1545-2123.
+    Type of Review: Extension.
+    Title: Notice 2009-85, Guidance for Expatriates and Recipients of 
+Foreign Source Gifts and Bequests under Sections 877A, 2801, and 6039G.
+    Description: Section 301 of the Heroes Earnings Assistance and 
+Relief Tax Act of 2008 (the ``Act'') enacted new sections 877A and 2801 
+of the Internal Revenue Code (``Code''), amended sections 6039G and 
+7701(a), made conforming amendments to sections 877(e) and 7701(b), and 
+repealed section 7701(n). This notice provides guidance regarding 
+certain federal tax consequences under these sections for individuals 
+who renounce U.S. citizenship or cease to be taxed as lawful permanent 
+residents of the United States.
+    Respondents: Individuals or Households.
+    Estimated Total Burden Hours: 420 hours.
+
+    OMB Number: 1545-0228.
+    Type of Review: Extension.
+    Title: Installment Sale Income.
+    Form: 6252.
+    Description: Information is needed to figure and report an 
+installment sale for a casual or incidental sale of personal property, 
+and a sale of real property by someone not in the business of selling 
+real estate. Data is used to determine whether the installment sale has 
+been properly reported and the correct amount of profit is included in 
+income on the taxpayer's return.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 1,597,008 hours.
+
+    OMB Number: 1545-0940.
+    Type of Review: Extension.
+    Title: LR-185-84 (Final) Election for $10 million Limitation on 
+Exempt Small Issues of Industrial Development Bonds; Supplemental 
+Capital Expenditure Statements.
+    Description: The regulation liberalizes the procedure by which the 
+state or local government issuer of an exempt small issue of tax-exempt 
+bonds elects the $10 million limitation upon the size of such issue and 
+deletes the requirement to file certain supplemental capital 
+expenditure statements.
+    Respondents: State, Local, and Tribal Governments.
+    Estimated Total Burden Hours: 1,000 hours.
+
+    OMB Number: 1545-0950.
+    Type of Review: Extension.
+    Title: Application for Enrollment to Practice before the Internal 
+Revenue Service.
+
+[[Page 54881]]
+
+    Form: 23; 23-EP.
+    Description: Form 23 must be completed by those who desire to be 
+enrolled to practice before the Internal Revenue Service. The 
+information on the form will be used by the Director of Practice to 
+determine the qualifications and eligibility of applicants for 
+enrollment. Form 23-EP is the application form for Enrolled Retirement 
+Plan Agents (ERPAs).
+    Respondents: Individuals or Households.
+    Estimated Total Burden Hours: 1,200 hours.
+
+    OMB Number: 1545-1844.
+    Type of Review: Extension.
+    Title: Agreement to Mediate.
+    Form: 13369.
+    Description: Fast Track Mediation is a dispute resolution process 
+designed to expedite case resolution. In order to avail themselves of 
+this process, taxpayers and Compliance must complete the Agreement to 
+Mediate once an examination or collection determination is made. Once 
+signed by both parties, the Agreement to Mediate will be forwarded to 
+Appeals to schedule a mediation session.
+    Respondents: Individuals or Households.
+    Estimated Total Burden Hours: 15 hours.
+
+    OMB Number: 1545-1816.
+    Type of Review: Extension.
+    Title: REG-103320-00 (TD 9054--Final) Disclosure of Returns and 
+Return Information to Designee of Taxpayer.
+    Description: Regulation section 301.6103(c)-1 generally authorizes 
+the IRS and its agents to disclose returns and return information to 
+such person or persons as the taxpayer may designate in a written 
+request for or consent to disclosure, or to any other person at the 
+taxpayer's written or nonwritten request to the extent necessary to 
+comply with a request for information or assistance made by the 
+taxpayer to such other person. The regulation requires a taxpayer who 
+wishes to authorize disclosure of his or her returns or return 
+information to provide the IRS or its agents with certain information, 
+such as information identifying.
+    Respondents: Individuals or Households.
+    Estimated Total Burden Hours: 800 hours.
+
+    OMB Number: 1545-2007.
+    Type of Review: Revision.
+    Title: Employer's Annual Employment Tax Return.
+    Form: 944; 944-SP; 944-X.
+    Description: The information on Form 944 will be collected to 
+ensure the smallest nonagricultural and non-household employers are 
+paying the correct amount of social security tax, Medicare tax, and 
+withheld federal Income tax. Information on line 13 will be used to 
+determine if employers made any required deposits of these taxes.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 14,019,000 hours.
+
+    OMB Number: 1545-1826.
+    Type of Review: Extension.
+    Title: Excise Tax on Structured Settlement Factoring Transactions.
+    Form: 8876.
+    Description: Form 8876 is used to report structured settlement 
+transactions and pay the applicable excise tax.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 560 hours.
+
+    OMB Number: 1545-1190.
+    Type of Review: Extension.
+    Title: Like-Kind Exchanges.
+    Form: 8824.
+    Description: Form 8824 is used by individuals, partnerships, and 
+other entities to report the exchange of business or investment 
+property, and the deferral of gains from such transactions under 
+section 1031. It is also used to report the deferral of gain under 
+section 1043 by members of the executive branch of the Federal 
+government.
+    Respondents: Individuals or Households.
+    Estimated Total Burden Hours: 834,979 hours.
+
+    OMB Number: 1545-1060.
+    Type of Review: Extension.
+    Title: Application for Withholding Certificate for Dispositions by 
+Foreign Persons of U.S. Real Property Interests.
+    Form: 8288-B.
+    Description: Form 8288-B is used to apply for a withholding 
+certification from IRS to reduce or eliminate the withholding required 
+by section 1445.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 29,256 hours.
+
+    OMB Number: 1545-1835.
+    Type of Review: Extension.
+    Title: Form 637 Questionnaires.
+    Form: 637.
+    Description: Form 637 Questionnaires will be used to collect 
+information about persons who are registered with the Internal Revenue 
+Service (IRS) in accordance with Internal Revenue Code (IRC) Sec. 4104 
+or 4222. The information will be used to make an informed decision on 
+whether the applicant/registrant qualifies for registration.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 3,479 hours.
+
+    OMB Number: 1545-0991.
+    Type of Review: Extension.
+    Title: Application to Participate in the IRS e-file Program.
+    Form: 8633.
+    Description: Form 8633 is used by tax preparers, electronic return 
+collectors, software firms, service bureaus and electronic 
+transmitters, as an application to participate in the electronic filing 
+program covering individual income tax returns.
+    Respondents: Businesses or other for-profits.
+    Estimated Total Burden Hours: 50,000 hours.
+
+    Clearance Officer: R. Joseph Durbala (202) 622-3634, Internal 
+Revenue Service, Room 6516, 1111 Constitution Avenue, NW., Washington, 
+DC 20224.
+    OMB Reviewer: Shagufta Ahmed (202) 395-7873, Office of Management 
+and Budget, Room 10235, New Executive Office Building, Washington, DC 
+20503.
+
+Celina Elphage,
+Treasury PRA Clearance Officer.
+[FR Doc. E9-25578 Filed 10-22-09; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre></body>
+</html>

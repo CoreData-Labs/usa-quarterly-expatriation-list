@@ -1,0 +1,253 @@
+<html>
+<head>
+<title>Federal Register, Volume 68 Issue 226 (Monday, November 24, 2003)</title>
+</head>
+<body><pre>
+[Federal Register Volume 68, Number 226 (Monday, November 24, 2003)]
+[Notices]
+[Pages 65993-65995]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 03-29241]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Submission for OMB Review; Comment Request
+
+November 17, 2003.
+    The Department of Treasury has submitted the following public 
+information collection requirement(s) to OMB for review and clearance 
+under the Paperwork Reduction Act of 1995, Pub. L. 104-13. Copies of 
+the submission(s) may be obtained by calling the Treasury Bureau 
+Clearance Officer listed. Comments regarding this information 
+collection should be addressed to the OMB reviewer listed and to the 
+Treasury Department Clearance Officer,
+
+[[Page 65994]]
+
+Department of the Treasury, Room 11000, 1750 Pennsylvania Avenue, NW., 
+Washington, DC 20220.
+
+DATES: Written comments should be received on or before December 24, 
+2003 to be assured of consideration.
+
+Internal Revenue Service (IRS)
+
+    OMB Number: 1545-0002.
+    Form Number: IRS Form CT-2.
+    Type of Review: Extension.
+    Title: Employee Representative's Quarterly Railroad Tax Return.
+    Description: Employee representatives file Form CT-2 quarterly 
+compensation on which railroad retirement taxes are due. IRS uses this 
+information to ensure that employee representatives have paid the 
+correct tax. Form CT-2 also transmits the tax payment.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeeping: 28.
+
+    Estimated Burden Hours Respondent/Recordkeeper:
+Recordkeeping--13 minutes
+Learning about the law or the form--13 minutes
+Preparing the form--24 minutes
+Copying, assembling, and sending the form to the IRS--16 minutes
+
+
+    Frequency of Response: Quarterly.
+    Estimated Total Responding/Recordkeeping Burden: 127 hours.
+
+    OMB Number: 1545-0135.
+    Form Number: IRS Form 1138.
+    Type of Review: Extension.
+    Title: Extension of Time for Payment of Taxes by a Corporation 
+Expecting a Net Operating Loss Carryback.
+    Description: Form 1138 is filed by corporations to request an 
+extension of time to pay their income taxes, including estimated taxes. 
+Corporations may only file for an extension when they expect a net 
+operating loss carryback in the tax year and want to delay the payment 
+of taxes from a prior tax year.
+    Respondents: Business or other for-profit.
+    Estimated Number of Respondents/Recordkeepers: 2,033.
+    Estimated Burden Hours Respondent/Recordkeeper:
+
+Recordkeeping--3 hr., 21 min.
+Learning about the law or the form--42 min.
+Preparing and sending the form to the IRS--46 min.
+
+    Frequency of Response: On occasion.
+    Estimated Total Reporting/Recordkeeping Burden: 9,800 hours.
+
+    OMB Number: 1545-0794.
+    Regulation Project Number: LR-311-81 Final (TD 7925).
+    Type of Review: Extension.
+    Title: Penalties for Underpayment of Deposits and Overstated 
+Deposit Claims, and Time of Filing Information Returns of Owners, 
+Officers and Directors of Foreign Corporation.
+    Description: Section 6406 requires information returns with respect 
+to certain foreign corporations and the regulations provide the date by 
+which these returns must be filed.
+    Respondents: Business or other for-profit, Individuals or 
+households, Not-for-profit institutions.
+    Estimated Number of Respondents: 1.
+    Estimated Burden Hours Respondent: 1 hour.
+    Frequency of Response: On occasion.
+    Estimated Total Reporting Burden: 1 hour.
+
+    OMB Number: 1545-0946.
+    Form Number: IRS Form 8554.
+    Type of Review: Extension.
+    Title: Application for Renewal of Enrollment to Practice before the 
+Internal Revenue Service.
+    Description: This information relates to the approval of continuing 
+professional education programs and the renewal of the enrollment 
+status for those individuals admitted (enrolled) by the Internal 
+Revenue Service.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeepers: 39,500.
+    Estimated Burden Hours Respondent/Recordkeeper: 1 hour, 12 minutes.
+    Frequency of Response: Other (on-time filing).
+    Estimated Total Reporting/Recordkeeping Burden: 47,400 hours.
+
+    OMB Number: 1545-0949.
+    Form Number: IRS Form 2587.
+    Type of Review: Extension.
+    Title: Application for Special Enrollment Examination.
+    Description: This information relates to the determination of the 
+eligibility of individuals seeking enrollment status to practice before 
+the Internal Revenue Service.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents: 8,000.
+    Estimated Burden Hours Respondent: 6 minutes.
+    Frequency of Response: Other (one-time filing).
+    Estimated Total Reporting Burden: 800 hours.
+
+    OMB Number: 1545-1098.
+    Regulation Project Number: TD 8418 Final (FI-91-86; FI-90-86; FI-
+90-91; and FI-1-90).
+    Type of Review: Extension.
+    Title: Arbitrage Restrictions on Tax-Exempt Bonds.
+    Description: This regulation requires state and local governmental 
+issuers of tax-exempt bonds to rebate arbitrage profits earned on 
+nonpurpose investments acquired with the bond proceeds. Issuers are 
+required to submit a form with the rebate. The regulations provide for 
+several elections, all of which must be in writing.
+    Respondents: Not-for-profit institutions, State, Local or Tribal 
+Government.
+    Estimated Number of Respondents/Recordkeepers: 3,100.
+    Estimated Burden Hours Respondent/Recordkeeper: 2 hours, 45 
+minutes.
+    Frequency of Response: On occasion, Other (at most every 5 years).
+    Estimated Total Reporting/Recordkeeping Burden: 8,550 hours.
+
+    OMB Number: 1545-1145.
+    Form Number: IRS Form 706-GS(T).
+    Type of Review: Extension.
+    Title: Generation-Skipping Transfer Tax Return for Termination.
+    Description: Form 706-GS(T) is used by trustees to compute and 
+report the Federal GST tax imposed by Internal Revenue Code (IRC) 
+section 2601. IRS uses the information to enforce this tax and to 
+verify that the tax has been properly computed.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeepers: 100.
+    Estimated Burden Hours Respondent/Recordkeeper:
+
+----------------------------------------------------------------------------------------------------------------
+                                                                                                     Copying,
+                                                               Learning  about                   assembling, and
+                    Form                       Recordkeeping   the law  or the   Preparing the     sending  the
+                                                                     form             form       form to the IRS
+                                                                                                     (minutes)
+----------------------------------------------------------------------------------------------------------------
+Form 706-GS(T)..............................               39               32               32               20
+Schedule A..................................               13               13               37               20
+
+[[Page 65995]]
+
+ 
+Schedule B..................................               13                9               19               20
+----------------------------------------------------------------------------------------------------------------
+
+    Frequency of Response: Annually.
+    Estimated Total Reporting/Recordkeeping Burden: 702 hours.
+
+    OMB Number: 1545-1288.
+    Form Number: IRS Form 8828.
+    Type of Review: Revision.
+    Title: Recapture of Federal Mortgage Subsidy.
+    Description: Form 8828 is needed to compute the section 143(m) tax 
+on recapture of the Federal subsidy from use of qualified mortgage 
+bonds and mortgage credit certificates in cases where the financing is 
+provided after 1990 and the home subject to the financing is sold 
+during the first 9 years after financing was provided. IRS uses the 
+information to determine that the proper amount of Federal subsidy is 
+recaptured.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeepers: 10,000.
+    Estimated Burden Hours Respondent/Recordkeeper:
+Recordkeeping--1 hr., 18 min.
+Learning about the law or the form--22 min.
+Preparing the form--46 min.
+Copying, assembling, and sending the form to the IRS--20 min.
+
+    Frequency of Response: Other (for year of sale of home).
+    Estimated Total Reporting/Recordkeeping Burden: 26,340 hours.
+
+    OMB Number: 1545-1567.
+    Form Number: IRS Form 8854.
+    Type of Review: Extension.
+    Title: Expatriation Initial Information Statement.
+    Description: Internal Revenue Code section 6039G requires persons 
+who lose U.S. citizenship to provide information concerning 
+citizenship, income tax liability, net worth, and net assets. Form 8854 
+is used to report this information.
+    Respondents: Individuals or households.
+    Estimated Number of Respondents/Recordkeepers: 11,000.
+    Estimated Burden Hours Respondent/Recordkeeper:
+
+------------------------------------------------------------------------
+                                     Part I
+                                   (minutes)          Part I and II
+------------------------------------------------------------------------
+Recordkeeping.................               33  2 hr., 57 min.
+Learning about the law or the                13  .25 min.
+ form.
+Preparing the form............               39  1 hr., 24 min.
+Copying, assembling, and                     20  34 min.
+ sending the form to the IRS.
+------------------------------------------------------------------------
+
+    Frequency of Response: Other (once).
+    Estimated Total Reporting/Recordkeeping Burden: 23,060 hours.
+
+    OMB Number: 1545-1711.
+    Regulation Project Number: REG-116050-99 NPRM.
+    Type of Review: Extension.
+    Title: Stock Transfer Rules: Carryover of Earnings and Taxes.
+    Description: This document contains proposed regulations governing 
+the manner in which certain tax attributes (i.e., earnings and profits 
+and foreign income tax accounts) carry over under section 381 and are 
+allocated under section 312 in transactions described in section 367(b) 
+of the Internal Revenue Code.
+    Respondents: Business or other for-profit.
+    Estimated Number of Respondents: 600.
+    Estimated Burden Hours Respondent: 3 hours.
+    Frequency of Response: On occasion.
+    Estimated Total Reporting Burden: 1,800 hours.
+
+Clearance Officer: R. Joseph Durbala, Internal Revenue Service, Room 
+6411, 1111 Constitution Avenue, NW., Washington, DC 20224, (202) 622-
+3634.
+OMB Reviewer: Joseph F. Lackey, Jr., Office of Management and Budget, 
+Room 10235, New Executive Office Building, Washington, DC 20503, (202) 
+395-7316.
+
+Lois K. Holland,
+Treasury PRA Clearance Officer.
+[FR Doc. 03-29241 Filed 11-21-03; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre></body>
+</html>

@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Federal Register, Volume 77 Issue 249 (Friday, December 28, 2012)</title>
+</head>
+<body><pre>
+[Federal Register Volume 77, Number 249 (Friday, December 28, 2012)]
+[Notices]
+[Pages 76604-76605]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2012-31139]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+
+Submission for OMB Review; Comment Request
+
+December 21, 2012.
+    The Department of the Treasury will submit the following 
+information collection request to the Office of Management and Budget 
+(OMB) for review and clearance in accordance with the Paperwork 
+Reduction Act of 1995, Public Law 104-13, on or after the date of 
+publication of this notice.
+
+DATES: Comments should be received on or before January 28, 2013 to be 
+assured of consideration.
+
+ADDRESSES: Send comments regarding the burden estimate, or any other 
+aspect of the information collection, including suggestion for reducing 
+the burden, to (1) Office of Information and Regulatory Affairs, Office 
+of Management and Budget, Attention: Desk Officer for Treasury, New 
+Executive Office Building, Room 10235, Washington, DC 20503, or email 
+at <a href="/cdn-cgi/l/email-protection#a8e7e1fae9f7fbddcac5c1dbdbc1c7c6e8e7e5ea86ede7f886efe7fe"><span class="__cf_email__" data-cfemail="3b7472697a64684e59565248485254557b747679157e746b157c746d">[email&#160;protected]</span></a> and (2) Treasury PRA Clearance Officer, 
+1750 Pennsylvania Ave. NW., Suite 8140, Washington, DC 20220, or email 
+at <a href="/cdn-cgi/l/email-protection#c8989a8988bcbaada9bbbdbab1e6afa7be"><span class="__cf_email__" data-cfemail="a3f3f1e2e3d7d1c6c2d0d6d1da8dc4ccd5">[email&#160;protected]</span></a>.
+
+FOR FURTHER INFORMATION CONTACT: Copies of the submission(s) may be 
+obtained by calling (202) 927-5331, email at <a href="/cdn-cgi/l/email-protection#d787859697a3a5b2b6a4a2a5aef9b0b8a1"><span class="__cf_email__" data-cfemail="5707051617232532362422252e79303821">[email&#160;protected]</span></a>, or the 
+entire information collection request maybe found at <a href="http://www.reginfo.gov">www.reginfo.gov</a>.
+
+Internal Revenue Service (IRS)
+
+    OMB Number: 1545-2123.
+
+[[Page 76605]]
+
+    Type of Review: Extension without change.
+    Title: Notice 2009-85, Guidance for Expatriates and Recipients of 
+Foreign Source Gifts and Bequests Under Sections 877A, 2801, and 6039G.
+    Abstract: Section 301 of the Heroes Earnings Assistance and Relief 
+Tax Act of 2008 (the ``Act'') enacted new sections 877A and 2801 of the 
+Internal Revenue Code (``Code''), amended sections 6039G and 7701(a), 
+made conforming amendments to sections 877(e) and 7701(b), and repealed 
+section 7701(n). This notice provides guidance regarding certain 
+federal tax consequences under these sections for individuals who 
+renounce U.S. citizenship or cease to be taxed as lawful permanent 
+residents of the United States.
+    Affected Public: Individuals or households.
+    Estimated Total Burden Hours: 420.
+
+    OMB Number: 1545-1835.
+    Type of Review: Extension without change of a currently approved 
+collection.
+    Title: Form 637 Questionnaires.
+    Abstract: Form 637 Questionnaires will be used to collect 
+information about persons who are registered with the Internal Revenue 
+Service (IRS) in accordance with Internal Revenue Code (IRC) Sec. 4104 
+or 4222. The information will be used to make an informed decision on 
+whether the applicant/registrant qualifies for registration.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 3,479.
+
+    OMB Number: 1545-1699.
+    Type of Review: Extension without change of a currently approved 
+collection.
+    Title: TD 9002, Agent for Consolidated Group.
+    Abstract: These proposed regulations provide greater certainty as 
+to which entity will be the substitute agent for the group by 
+identifying a default successor agent for the group. Under the proposed 
+regulations, an entity (whether foreign or domestic) is a default 
+successor if it becomes the single entity primarily liable, pursuant to 
+applicable law, for the tax liability of the former agent of the group 
+upon the termination of the agent's existence. When the agent for the 
+group terminates under applicable law and there is no default 
+successor, the agent for the group may designate a substitute agent.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 200.
+
+    OMB Number: 1545-1502.
+    Type of Review: Extension without change of a currently approved 
+collection.
+    Title: Form 5304-SIMPLE; Form 5305-SIMPLE; Notice 98-4.
+    Abstract: Forms 5304-SIMPLE and 5035-SIMPLE are used by an employer 
+to permit employees to make salary reduction contributions to a savings 
+incentive match plan (SIMPLE IRA) described in Code section 408(p). 
+These forms are not to be filed with IRS, but to be retained in the 
+employers' records as proof of establishing such a plan, thereby 
+justifying a deduction for contributions made to the SIMPLE IRA. The 
+data is used to verify the deduction. Notice 98-4 provides guidance for 
+employers and trustees regarding how they can comply with the 
+requirements of Code section 408(p) in establishing and maintaining a 
+SIMPLE Plan.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 2,113,000.
+
+    OMB Number: 1545-0902.
+    Type of Review: Extension without change of a currently approved 
+collection.
+    Title: Form 8288, U.S. Withholding Tax Return for Dispositions by 
+Foreign Persons of U.S. Real Property Interests: Form 8288-A, Statement 
+of Withholding on Dispositions by Foreign Persons of Real Property 
+Interests.
+    Abstract: Form 8288 is used by the withholding agent to report and 
+transmit the withholding to IRS. Form 8288-A is used to validate the 
+withholding and to return a copy to the transferor for his/her use in 
+filing a tax return.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 243,675.
+
+    OMB Number: 1545-1069.
+    Type of Review: Extension without change.
+    Title: EE-175-86 (Final) Certain Cash or Deferred Arrangements and 
+Employee and Matching Contributions under Employee Plans: REG- 108639-
+99 (NPRM) Retirement Plans; Cash or Deferred Arrangements.
+    Abstract: The IRS needs this information to insure compliance with 
+sections 401(k), 401(m), and 4979 of the Internal Revenue Code. Certain 
+additional taxes may be imposed if sections 401(k) and 401(m) are not 
+complied with.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 1,060,000.
+
+    OMB Number: 1545-0975.
+    Type of Review: Revision of a currently approved collection.
+    Title: Estimated Tax for Corporations.
+    Form: 1120-W
+    Abstract: Form 1120-W is used by corporations to figure estimated 
+tax liability and the amount of each installment payment. Form 1120-W 
+is a worksheet only. It is not to be filed with the Internal Revenue 
+Service.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 12,749,329.
+
+    OMB Number: 1545-0976.
+    Type of Review: Extension without change.
+    Title: Estimated Tax on Unrelated Business Taxable Income for Tax-
+Exempt Organizations.
+    Abstract: Form 990-W is used by tax-exempt trusts and tax-exempt 
+corporations to figure estimated tax liability on unrelated business 
+income and on investment income for private foundations and the amount 
+of each installment payment. Form 990-W is a worksheet only. It is not 
+required to be filed.
+    Affected Public: Private Sector: Business or other for-profits.
+    Estimated Total Burden Hours: 220,310.
+
+Robert Dahl,
+Treasury PRA Clearance Officer.
+[FR Doc. 2012-31139 Filed 12-27-12; 8:45 am]
+BILLING CODE 4830-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
