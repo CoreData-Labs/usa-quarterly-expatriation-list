@@ -599,39 +599,299 @@ The notices contain **real people's names** and are public records. Please use t
 
 ---
 
-## 🔄 Keeping the repository fresh
+## 🛠️ Installation and Setup
 
-The IRS publishes quarterly, so run `python main.py` once the new notice appears (see the [schedule](#-when-do-the-lists-appear)). To automate it, you can add this optional GitHub Actions workflow as `.github/workflows/quarterly-update.yml`. It checks weekly, and because existing files are skipped it only commits when something new has appeared:
+Follow these steps to install the required applications, download the repository, configure Python and run the automatic Federal Register downloader.
+
+### 1\. Install the required applications
+
+On Ubuntu or Debian-based Linux distributions, open a terminal and run:
+
+bash
+
+```bash
+sudo apt-get update
+
+sudo apt-get install bash git coreutils util-linux findutils grep sed gawk psmisc openssh-client ca-certificates python3 python3-pip python3-venv python3-lxml python3-psutil iputils-ping xvfb nodejs golang-go -y
+```
+
+This installs Git, Python, system utilities and the additional applications specified for the environment.
+
+### 2\. Clone the repository
+
+Download the project from GitHub:
+
+bash
+
+```bash
+git clone git@github.com:CoreData-Labs/usa-quarterly-expatriation-list.git
+```
+
+**Note:** SSH access requires a configured GitHub SSH key. If you have not configured one, you can use HTTPS instead:
+
+bash
+
+```bash
+git clone https://github.com/CoreData-Labs/usa-quarterly-expatriation-list.git
+```
+
+### 3\. Enter the project directory
+
+bash
+
+```bash
+cd usa-quarterly-expatriation-list
+```
+
+### 4\. Create a Python virtual environment
+
+A virtual environment keeps project dependencies separate from your system-wide Python installation.
+
+bash
+
+```bash
+python3 -m venv .venv
+```
+
+### 5\. Activate the virtual environment
+
+bash
+
+```bash
+source .venv/bin/activate
+```
+
+After activation, your terminal should display `(.venv)`.
+
+### 6\. Install the Python packages
+
+Install the dependencies listed in the project's requirements file:
+
+bash
+
+```bash
+pip install -r requirements.txt
+```
+
+If the project does not contain a `requirements.txt` file, check its dependency instructions before running this command. The current downloader is designed to use the Python standard library and does not require third-party packages.
+
+### 7\. Run the Python downloader
+
+Start the program:
+
+bash
+
+```bash
+python3 main.py
+```
+
+The program communicates with the Federal Register API, searches for relevant expatriation notices and downloads new documents into the `TXTs/` directory.
+
+### 8\. Verify the downloaded files
+
+bash
+
+```bash
+ls -lh TXTs/
+```
+
+You can also check the number of archived documents:
+
+bash
+
+```bash
+find TXTs/ -type f -name "*.txt" | wc -l
+```
+
+**Installation complete\!** You can now use Python to download, archive and maintain the quarterly expatriation notices.
+
+---
+
+## 🤖 How Python Automatically Maintains This List
+
+One of the main goals of this repository is to make maintaining the USA Quarterly Expatriation List as simple and reliable as possible.
+
+Instead of manually visiting the Federal Register website every quarter, downloading documents and organizing them into folders, Python handles the repetitive work automatically.
+
+### 🧠 How the automation works
+
+The project uses Python and the official Federal Register API to discover and download new notices.
+
+The process follows these steps:
+
+1. **Connect to the Federal Register API:** Python sends a request to the public Federal Register API.
+2. **Search for relevant notices:** The program searches for documents associated with Section 6039G.
+3. **Retrieve publication information:** It identifies document titles, publication dates and document numbers.
+4. **Check existing files:** Before downloading anything, Python checks whether the document already exists in the local archive.
+5. **Download new documents:** Only documents that are not already archived are downloaded.
+6. **Save the documents:** Each notice is saved as a plain-text `.txt` file inside `TXTs/`.
+7. **Maintain chronological organization:** The publication date and Federal Register document number are used to create consistent filenames.
+
+### 🔄 The automatic maintenance workflow
+
+mermaid
+
+```mermaid
+flowchart TD
+    A["⏰ Scheduled Python execution"] --> B["🌐 Connect to Federal Register API"]
+    B --> C["🔎 Search for Section 6039G notices"]
+    C --> D["📋 Retrieve matching documents"]
+    D --> E{"📁 Does the file already exist?"}
+    E -->|Yes| F["⏭️ Skip existing document"]
+    E -->|No| G["⬇️ Download new document"]
+    G --> H["💾 Save inside TXTs/"]
+    H --> I["📊 Updated archive"]
+    F --> I
+    I --> J["🔄 GitHub repository update"]
+```
+
+### 🐍 How Python prevents duplicate downloads
+
+An important feature is that existing files are skipped.
+
+This means you can execute:
+
+bash
+
+```bash
+python3 main.py
+```
+
+multiple times without unnecessarily downloading the same documents again.
+
+For example:
+
+| Situation                           | Python action                                       |
+| ----------------------------------- | --------------------------------------------------- |
+| First execution                     | Downloads all matching notices not already archived |
+| Second execution                    | Skips existing files                                |
+| New quarterly notice appears        | Downloads the new notice                            |
+| Existing notice is discovered again | Skips its existing file                             |
+| Repository is updated               | New files can be committed to GitHub                |
+
+This makes the downloader suitable for scheduled execution.
+
+### 🧪 Preview new documents before downloading
+
+You can use the dry-run option to check which documents the program identifies without saving them.
+
+bash
+
+```bash
+python3 main.py --dry-run --contact-email you@yourdomain.com
+```
+
+When you are ready, run:
+
+bash
+
+```bash
+python3 main.py --contact-email you@yourdomain.com
+```
+
+Replace the example email with an appropriate contact email address.
+
+### ☁️ Automatically update GitHub using GitHub Actions
+
+Python can perform the downloading, while GitHub Actions can schedule the execution and publish new files to the repository.
+
+Create this file:
+
+text
+
+```text
+.github/workflows/quarterly-update.yml
+```
+
+Add the following configuration:
+
+yaml
 
 ```yaml
 name: Update expatriation notices
 
 on:
   schedule:
-    - cron: "0 12 * * 1"   # every Monday at 12:00 UTC
-  workflow_dispatch:        # lets you run it manually too
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
 
 permissions:
-  contents: write           # needed so the workflow can commit new files
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Download new notices
-        run: python main.py --contact-email you@yourdomain.com   # change this email
-      - name: Commit new files
+
+      - name: Download new Federal Register notices
+        run: |
+          python main.py --contact-email ${{ secrets.CONTACT_EMAIL }}
+
+      - name: Commit and push new documents
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add TXTs
-          git diff --cached --quiet || git commit -m "Add new quarterly expatriation notice"
+
+          git add TXTs/
+
+          git diff --cached --quiet || \
+            git commit -m "Add new quarterly expatriation notice"
+
           git push
 ```
+
+Add a GitHub Actions repository secret named `CONTACT_EMAIL` containing your contact email address.
+
+The workflow checks the Federal Register every Monday at 12:00 UTC. You can also trigger it manually from the GitHub Actions tab.
+
+### 📅 Why check every week?
+
+The government publishes these notices quarterly, but publication dates can vary.
+
+A weekly schedule offers several advantages:
+
+- Detects new notices without waiting for someone to run the script.
+- Reduces the possibility of missing a publication.
+- Avoids unnecessary downloads because existing files are skipped.
+- Keeps the GitHub archive updated.
+- Provides a repeatable process that contributors can maintain.
+
+### 📊 What happens after a new notice is published?
+
+Suppose the Federal Register publishes a new quarterly notice.
+
+The automated process will:
+
+1. Detect the new publication through the API.
+2. Retrieve its document information.
+3. Download the text version.
+4. Save it under the correct publication-date filename.
+5. Commit the new document to GitHub.
+6. Make the updated archive available to everyone.
+
+No manual file downloading or uploading is necessary.
+
+### 🛡️ Important maintenance recommendations
+
+- Keep the Python downloader compatible with Python 3.12 or newer.
+- Check the GitHub Actions execution logs periodically.
+- Verify that downloaded documents are genuine Federal Register notices.
+- Keep correction notices rather than silently replacing historical records.
+- Review parsing logic whenever the Federal Register changes its document layout.
+- Recalculate the statistics and update the README when new quarterly lists are added.
+- Preserve the original source documents so researchers can reproduce the results.
+
+**The main idea:** Python handles data collection, GitHub Actions handles scheduling and publishing, and Git stores the historical archive.
+
+Together, these tools make it possible to maintain a public quarterly expatriation archive with very little manual intervention.
 
 ---
 
