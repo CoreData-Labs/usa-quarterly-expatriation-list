@@ -8,7 +8,7 @@
 ![Statute](https://img.shields.io/badge/Statute-26%20U.S.C.%20%C2%A7%206039G-orange)
 
 > 📬 **Every quarter, the U.S. government publishes the names of people who gave up U.S. citizenship or long-term U.S. residency.**
-> This repository archives every one of those official notices since 1997 as plain `.txt` files, and this page explains what is inside them, what the numbers show, and how anyone can put the data to work.
+> This repository archives every one of those official notices since 1997 as plain `.txt` files, together with the original `.pdf` of each notice, and this page explains what is inside them, what the numbers show, and how anyone can put the data to work.
 
 ---
 
@@ -25,7 +25,7 @@
 | 🆕 **Latest list**        | Q3 2026, published 2026-10-30: **1,331** names                                                           |
 | 📈 **2026 so far**        | 4,574 names in three lists, already 94% of the whole of 2025 (4,888)                                     |
 
-> 🧪 All counts on this page were parsed directly from the files in `TXTs/`. They can differ by a few entries from other published tallies (for example, 2020 comes to 6,708 here and 6,705 in some compilations). The [reproduce section](#-3-reproduce-the-counts-yourself) shows how to recompute everything.
+> 🧪 All counts on this page were parsed directly from the text files in `TXTs/`. They can differ by a few entries from other published tallies (for example, 2020 comes to 6,708 here and 6,705 in some compilations). The [reproduce section](#-3-reproduce-the-counts-yourself) shows how to recompute everything.
 
 ---
 
@@ -41,7 +41,8 @@
 - [🌍 Benefits for the community](#-benefits-for-the-community)
 - [🚧 Limitations and data quality](#-limitations-and-data-quality)
 - [🤝 Responsible use](#-responsible-use)
-- [🔄 Keeping the repository fresh](#-keeping-the-repository-fresh)
+- [🛠️ Installation and Setup](#️-installation-and-setup)
+- [🤖 How Python Automatically Maintains This List](#-how-python-automatically-maintains-this-list)
 - [📚 Sources](#-sources)
 - [📝 Disclaimer](#-disclaimer)
 
@@ -70,8 +71,8 @@ The IRS publishes a new list **four times a year**, shortly after each calendar 
 flowchart LR
     A["🗓️ Quarter ends<br/>Mar 31 / Jun 30 / Sep 30 / Dec 31"] --> B["📨 Treasury receives<br/>the paperwork"]
     B --> C["📰 IRS publishes the notice<br/>in the Federal Register"]
-    C --> D["⬇️ main.py downloads<br/>the new .txt file"]
-    D --> E["📁 TXTs/ folder<br/>updated"]
+    C --> D["⬇️ main.py downloads<br/>the new .txt and .pdf files"]
+    D --> E["📁 TXTs/ and PDFs/ folders<br/>updated"]
 ```
 
 ### 📆 When do the lists appear?
@@ -112,18 +113,22 @@ Recent examples: Q4 2025 on **2026-01-23**, Q1 2026 on **2026-04-22**, Q2 2026 o
 ```text
 usa-quarterly-expatriation-list/
 ├── 📄 README.md                    ← you are here
-├── 🐍 main.py                      ← the downloader (Python standard library only)
-└── 📁 TXTs/                        ← one text file per Federal Register notice (135 files)
-    ├── 1997-01-30_97-2283.txt
+├── 🐍 main.py                      ← the downloader (Python standard library only, no arguments)
+├── 📁 TXTs/                        ← one text file per Federal Register notice (135 files)
+│   ├── 1997-01-30_97-2283.txt
+│   ├── …
+│   └── 2026-10-30_2026-22229.txt
+└── 📁 PDFs/                        ← the original PDF of each notice, same names as the text files
+    ├── 1997-01-30_97-2283.pdf
     ├── …
-    └── 2026-10-30_2026-22229.txt
+    └── 2026-10-30_2026-22229.pdf
 ```
 
-📌 **File naming:** `YYYY-MM-DD_<federal-register-document-number>.txt`. The date is the publication date, so the folder sorts chronologically.
+📌 **File naming:** `YYYY-MM-DD_<federal-register-document-number>.txt` and `.pdf`. The date is the publication date, so both folders sort chronologically, and a notice's text and PDF share the same base name so they are easy to match.
 
 ```mermaid
 pie showData
-    title What the 135 files are
+    title What the 135 files in TXTs/ are
     "Quarterly lists" : 120
     "Corrections" : 3
     "Other paperwork notices" : 12
@@ -131,7 +136,7 @@ pie showData
 
 ### 🧬 Anatomy of a notice
 
-Every file is the text version of a Federal Register page, wrapped in a little HTML. Each quarterly list has the same skeleton:
+Every file in `TXTs/` is the text version of a Federal Register page, wrapped in a little HTML. Each quarterly list has the same skeleton:
 
 1. A header with the volume, issue, page range and document number.
 2. A short paragraph naming the law and **the quarter** the list covers ("the quarter ending ...").
@@ -147,6 +152,14 @@ The layout of the name table has changed over the years:
 | One name per line as `First Middle Last`                  |     2 | October 2004 (part of a five-list batch) |
 
 Some lists also wrap very long names onto a second line.
+
+### 📕 Why PDFs too?
+
+The text version is the easiest to search and parse, but it is a conversion of the original page. The PDF is the original document as published through govinfo.gov, so keeping it next to the text gives you:
+
+- 🗄️ **Source preservation:** the original notice is archived for future reference.
+- ✅ **A way to verify:** if a name looks missing or garbled in a text file, check the PDF of the same notice.
+- 🔁 **Same safe behaviour:** a PDF that is missing or invalid never blocks the text download, and the other way around.
 
 ---
 
@@ -409,7 +422,7 @@ timeline
 
 ### 👀 1. Browse and search (no setup needed)
 
-Open any file in the `TXTs/` folder on GitHub. To search every notice at once from a terminal:
+Open any file in the `TXTs/` folder on GitHub (or its matching original in `PDFs/`). To search every notice at once from a terminal:
 
 ```bash
 # 🔍 case-insensitive search across all notices, showing file name and line number
@@ -435,7 +448,7 @@ for text_file_path in sorted(pathlib.Path("TXTs").glob("*.txt")):  # visit every
 
 ### 🧮 3. Reproduce the counts yourself
 
-This script (standard library only) classifies every file, counts the names in each quarterly list and writes `lists_summary.csv` with the publication date, the quarter covered, the number of names and the delay in days. It reproduces every count on this page: **120 lists and 69,902 names**.
+This script (standard library only) classifies every text file, counts the names in each quarterly list and writes `lists_summary.csv` with the publication date, the quarter covered, the number of names and the delay in days. It reproduces every count on this page: **120 lists and 69,902 names**.
 
 <details>
 <summary>📜 Show the script (<code>summarize_lists.py</code>)</summary>
@@ -506,27 +519,38 @@ Save it as `summarize_lists.py` in the repository root and run `python summarize
 
 ### ⬇️ 4. Download or refresh the files
 
-`main.py` talks to the free [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) (no API key needed), searches for `6039G`, and saves each notice into `TXTs/`. **Files that already exist are skipped**, so it is safe to run again every quarter.
+`main.py` talks to the free [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) (no API key needed), searches for `6039G`, and saves **two files for every notice**: the text version into `TXTs/` and the original PDF into `PDFs/`. **Files that already exist are skipped, and a file that is missing is downloaded**, so it is safe to run again every quarter.
+
+There are **no command line arguments**. Just run it:
 
 ```bash
-# 👀 step 1: preview what would be downloaded (nothing is saved)
-python main.py --dry-run --contact-email you@yourdomain.com
-
-# ⬇️ step 2: download everything that is new
-python main.py --contact-email you@yourdomain.com
+# ⬇️ download everything that is new (text and PDF)
+python main.py
 ```
 
 Requirements: **Python 3.12 or newer** and nothing else (standard library only).
 
-| ⚙️ Option                        | 📖 What it does                                                  | Default           |
-| -------------------------------- | ---------------------------------------------------------------- | ----------------- |
-| `--output-directory`             | Folder for the downloaded files                                  | `TXTs`            |
-| `--contact-email`                | Your email, sent in the `User-Agent` header (good API etiquette) | `you@example.com` |
-| `--dry-run`                      | List matching documents without downloading                      | off               |
-| `--extra-search-term`            | Add another search term (repeatable)                             | none              |
-| `--maximum-concurrent-downloads` | Simultaneous downloads                                           | `3`               |
-| `--delay-seconds`                | Pause after each download, to be polite to the server            | `1.0`             |
-| `--api-documents-url`            | Override the search endpoint (useful for testing)                | official endpoint |
+The only setting you may want to change is your contact email, which is sent in the `User-Agent` header (good API etiquette). Set it with an environment variable instead of an argument:
+
+```bash
+# 📧 optional: identify yourself politely to the API (Linux and macOS)
+export CONTACT_EMAIL=you@yourdomain.com
+python main.py
+```
+
+On Windows PowerShell use `$env:CONTACT_EMAIL = "you@yourdomain.com"` before running `python main.py`.
+
+🧰 Everything else is a named constant at the top of `main.py` (folders, number of simultaneous downloads, pause between downloads, number of retries), so there is nothing to type and nothing to forget.
+
+| ⚙️ Built-in behaviour | 📖 What it does                                                                                            |
+| --------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 📁 **Folders**        | Text files go to `TXTs/`, PDFs go to `PDFs/`, both next to `main.py` (so it works from any current folder) |
+| 🚦 **Concurrency**    | 4 files at a time, with a 1 second pause after each real download                                          |
+| 🔁 **Retries**        | Up to 4 attempts per file with growing waits; a server's `Retry-After` hint is respected                   |
+| 🛡️ **PDF check**      | A PDF is only accepted if it really starts with `%PDF`; a broken existing PDF is downloaded again          |
+| 💾 **Safe saving**    | Files are written to a `.part` file first and moved into place, and leftover `.part` files are cleaned up  |
+| 📋 **Final report**   | A summary per file type, plus a list of any file that is still missing                                     |
+| 🚪 **Exit codes**     | `0` everything is on disk, `1` nothing found or a file failed, `2` the search itself failed                |
 
 🪵 The program logs everything to the console at DEBUG level, so you can see each request, response and file written.
 
@@ -538,7 +562,7 @@ Requirements: **Python 3.12 or newer** and nothing else (standard library only).
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 👤 **An individual or family member**       | Check whether and when a name was published with the `grep` command above. Use the delay statistics (median about 30 days, longer in catch-up periods) to know when to expect a listing, and remember that **absence from the list is not proof of anything** (see [limitations](#-limitations-and-data-quality)). |
 | 🧬 **A genealogist or family historian**    | Look for relatives who gave up citizenship since 1996. The quarter of the list tells you roughly when Treasury heard about it. Please treat these records with respect.                                                                                                                                            |
-| 🧑‍💼 **A tax or immigration adviser**         | Plan capacity with the seasonal and yearly volumes, set client expectations with the real publication timing, and keep a local, citable copy of the official record.                                                                                                                                               |
+| 🧑‍💼 **A tax or immigration adviser**         | Plan capacity with the seasonal and yearly volumes, set client expectations with the real publication timing, and keep a local, citable copy of the official record (the PDFs).                                                                                                                                    |
 | 🏢 **A compliance, HR or mobility team**    | Use the list as one public data point when documenting a lawful, case-specific review. It is **not a watch list** and says nothing about why someone left.                                                                                                                                                         |
 | 🎓 **A student or researcher**              | Model the quarterly series (trend, seasonality, the 2020 break), forecast the next list, or study how the notice wording changed. The three name layouts, wrapped lines and misprints make it an excellent **real-world data-cleaning exercise**.                                                                  |
 | 📰 **A journalist or analyst**              | Verify "record" claims against the actual numbers (for example, 1,781 names in Q2 2026 is 69% above 1,056 in Q2 2025), and quote the exact list, date and page.                                                                                                                                                    |
@@ -554,31 +578,33 @@ Three lists are in for 2026 (1,462 + 1,781 + 1,331 = **4,574 names**). A Q4 2026
 ## 🌍 Benefits for the community
 
 - 🔍 **Accountability for a legal deadline.** Because the statute sets a 30-day limit, an open archive lets anyone see the track record: only 4 of 20 lists for 2017 to 2021 were on time, versus 16 of 19 since 2022. Public data keeps public duties visible.
-- 🗄️ **A durable public record.** Federal Register pages can move, change layout or become hard to search. A versioned Git archive keeps the complete 1997 to 2026 series safe, diff-able and easy to mirror.
+- 🗄️ **A durable public record.** Federal Register pages can move, change layout or become hard to search. A versioned Git archive of both the text and the original PDFs keeps the complete 1997 to 2026 series safe, diff-able and easy to mirror.
 - 📊 **Shared facts for public debate.** People of every viewpoint argue about expatriation. A neutral, reproducible set of counts (with the methods in the open) gives everyone the same starting point instead of competing, unsourced numbers.
 - 🌐 **Support for Americans abroad and the groups that serve them.** Advocacy groups, support organisations and advisers can cite exact figures, timings and corrections rather than rumours.
 - 🎓 **Data-literacy teaching material.** Real, messy, public data (three layouts, a misprinted quarter, batch publications) is perfect for classrooms, bootcamps and workshops.
-- 🤖 **Open tools lower the barrier.** One dependency-free script and one summary script mean a student with a laptop can reproduce the same results as a professional analyst.
+- 🤖 **Open tools lower the barrier.** One dependency-free script that needs no arguments, and one summary script, mean a student with a laptop can reproduce the same results as a professional analyst.
 - 🔓 **Open-government by example.** The same pattern (fetch from a public API, skip what you already have, publish the method) can be reused for any other recurring government notice.
 
 ### 🤝 Ways to contribute
 
-| 💡 Idea                                                                                                                       | 🧰 Skill level |
-| ----------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| Add a tested parser that writes one clean CSV row per name entry (with responsible-use notes)                                 | Intermediate   |
-| Add a small test-suite that checks every list's count against `lists_summary.csv`                                             | Beginner       |
-| Build a static dashboard (GitHub Pages) from `lists_summary.csv`                                                              | Intermediate   |
-| Compare these counts with other public renunciation statistics and document the differences                                   | Intermediate   |
-| Improve the handling of wrapped long names and document the accuracy gain                                                     | Advanced       |
-| Translate this README                                                                                                         | Beginner       |
-| Add the optional [GitHub Actions workflow](#-keeping-the-repository-fresh) and report how it behaves around publication dates | Beginner       |
+| 💡 Idea                                                                                                                             | 🧰 Skill level |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| Add a tested parser that writes one clean CSV row per name entry (with responsible-use notes)                                       | Intermediate   |
+| Add a small test-suite that checks every list's count against `lists_summary.csv`                                                   | Beginner       |
+| Build a static dashboard (GitHub Pages) from `lists_summary.csv`                                                                    | Intermediate   |
+| Compare these counts with other public renunciation statistics and document the differences                                         | Intermediate   |
+| Cross-check the names in each PDF against the matching text file and report any that differ                                         | Advanced       |
+| Improve the handling of wrapped long names and document the accuracy gain                                                           | Advanced       |
+| Translate this README                                                                                                               | Beginner       |
+| Add the optional [GitHub Actions workflow](#-the-automatic-maintenance-workflow) and report how it behaves around publication dates | Beginner       |
 
 ---
 
 ## 🚧 Limitations and data quality
 
 - 🧮 **Counts come from parsing.** They can differ by a few entries from other published tallies, and three early lists differ more: Q2 1998 (116 names in the file), Q2 2001 (122) and Q3 2004 (243). The files themselves are the source of truth.
-- 📄 **12 of the 135 files are not name lists.** The Federal Register search for `6039G` also returns routine paperwork-clearance notices (for example requests for comments on Form 8854, the expatriation information statement) that merely mention the law. To see them, run `grep -L "Quarterly Publication" TXTs/*.txt`. Three more files are correction notices.
+- 📄 **12 of the 135 text files are not name lists.** The Federal Register search for `6039G` also returns routine paperwork-clearance notices (for example requests for comments on Form 8854, the expatriation information statement) that merely mention the law. To see them, run `grep -L "Quarterly Publication" TXTs/*.txt`. Three more files are correction notices.
+- 📕 **The text version is a conversion.** A name could in principle be missing or garbled in a text file even though it is in the original document. That is why the matching PDF is archived in `PDFs/`: when an entry matters, verify it there. The counts on this page come from the text files only.
 - 🕒 **The list shows when Treasury received information,** not the exact day someone renounced. A person can appear many months later, and in a few early periods whole lists were published in catch-up batches.
 - 🙈 **It may be incomplete.** Practitioners disagree on whether every former citizen is included.
 - 👥 **It mixes groups.** Former long-term green-card holders are included alongside former citizens.
@@ -601,13 +627,11 @@ The notices contain **real people's names** and are public records. Please use t
 
 ## 🛠️ Installation and Setup
 
-Follow these steps to install the required applications, download the repository, configure Python and run the automatic Federal Register downloader.
+Follow these steps to install the required applications, download the repository and run the automatic Federal Register downloader.
 
 ### 1\. Install the required applications
 
 On Ubuntu or Debian-based Linux distributions, open a terminal and run:
-
-bash
 
 ```bash
 sudo apt-get update
@@ -621,23 +645,17 @@ This installs Git, Python, system utilities and the additional applications spec
 
 Download the project from GitHub:
 
-bash
-
 ```bash
 git clone git@github.com:CoreData-Labs/usa-quarterly-expatriation-list.git
 ```
 
 **Note:** SSH access requires a configured GitHub SSH key. If you have not configured one, you can use HTTPS instead:
 
-bash
-
 ```bash
 git clone https://github.com/CoreData-Labs/usa-quarterly-expatriation-list.git
 ```
 
 ### 3\. Enter the project directory
-
-bash
 
 ```bash
 cd usa-quarterly-expatriation-list
@@ -647,15 +665,11 @@ cd usa-quarterly-expatriation-list
 
 A virtual environment keeps project dependencies separate from your system-wide Python installation.
 
-bash
-
 ```bash
 python3 -m venv .venv
 ```
 
 ### 5\. Activate the virtual environment
-
-bash
 
 ```bash
 source .venv/bin/activate
@@ -663,44 +677,37 @@ source .venv/bin/activate
 
 After activation, your terminal should display `(.venv)`.
 
-### 6\. Install the Python packages
+### 6\. Install the Python packages (only if a requirements file exists)
 
-Install the dependencies listed in the project's requirements file:
-
-bash
+If the project contains a `requirements.txt` file, install the dependencies it lists:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-If the project does not contain a `requirements.txt` file, check its dependency instructions before running this command. The current downloader is designed to use the Python standard library and does not require third-party packages.
+The current downloader uses only the Python standard library, so this step is not needed when there is no `requirements.txt`.
 
 ### 7\. Run the Python downloader
 
-Start the program:
-
-bash
+Start the program. It takes no arguments:
 
 ```bash
 python3 main.py
 ```
 
-The program communicates with the Federal Register API, searches for relevant expatriation notices and downloads new documents into the `TXTs/` directory.
+The program communicates with the Federal Register API, searches for relevant expatriation notices and downloads every missing text file into `TXTs/` and every missing PDF into `PDFs/`.
 
 ### 8\. Verify the downloaded files
 
-bash
-
 ```bash
-ls -lh TXTs/
+ls -lh TXTs/ PDFs/
 ```
 
-You can also check the number of archived documents:
-
-bash
+You can also compare the number of archived text files and PDFs (the two numbers should match):
 
 ```bash
 find TXTs/ -type f -name "*.txt" | wc -l
+find PDFs/ -type f -name "*.pdf" | wc -l
 ```
 
 **Installation complete\!** You can now use Python to download, archive and maintain the quarterly expatriation notices.
@@ -721,37 +728,45 @@ The process follows these steps:
 
 1. **Connect to the Federal Register API:** Python sends a request to the public Federal Register API.
 2. **Search for relevant notices:** The program searches for documents associated with Section 6039G.
-3. **Retrieve publication information:** It identifies document titles, publication dates and document numbers.
-4. **Check existing files:** Before downloading anything, Python checks whether the document already exists in the local archive.
-5. **Download new documents:** Only documents that are not already archived are downloaded.
-6. **Save the documents:** Each notice is saved as a plain-text `.txt` file inside `TXTs/`.
-7. **Maintain chronological organization:** The publication date and Federal Register document number are used to create consistent filenames.
+3. **Retrieve publication information:** It identifies document titles, publication dates, document numbers and the links to the text and PDF versions.
+4. **Check existing files:** Before downloading anything, Python checks whether each text file and each PDF already exists in the local archive.
+5. **Download what is missing:** Only files that are not already archived (or that are empty or invalid) are downloaded, the text and the PDF at the same time.
+6. **Save the documents:** Each notice is saved as a plain-text `.txt` file inside `TXTs/` and as a `.pdf` file inside `PDFs/`.
+7. **Maintain chronological organization:** The publication date and Federal Register document number are used to create consistent filenames, identical for the text and the PDF apart from the extension.
 
 ### 🔄 The automatic maintenance workflow
-
-mermaid
 
 ```mermaid
 flowchart TD
     A["⏰ Scheduled Python execution"] --> B["🌐 Connect to Federal Register API"]
     B --> C["🔎 Search for Section 6039G notices"]
-    C --> D["📋 Retrieve matching documents"]
-    D --> E{"📁 Does the file already exist?"}
-    E -->|Yes| F["⏭️ Skip existing document"]
-    E -->|No| G["⬇️ Download new document"]
-    G --> H["💾 Save inside TXTs/"]
+    C --> D["📋 Retrieve matching documents<br/>with their text and PDF links"]
+    D --> E{"📁 Does the file already exist<br/>and look valid?"}
+    E -->|Yes| F["⏭️ Skip existing file"]
+    E -->|No| G["⬇️ Download the file<br/>(with retries)"]
+    G --> H["💾 Save inside TXTs/ or PDFs/"]
     H --> I["📊 Updated archive"]
     F --> I
     I --> J["🔄 GitHub repository update"]
 ```
+
+### 🔁 Failure handling and retries
+
+The downloader is built so that one problem never ruins a whole run:
+
+- 🧩 **Every file is independent.** If a PDF cannot be downloaded, its text file is still saved, and the other way around.
+- 🔁 **Temporary problems are retried.** Network errors, timeouts, HTTP 429 and server errors (5xx) are retried up to 4 times with growing waits, and a server's `Retry-After` hint is respected.
+- 🛑 **Permanent problems are not retried.** HTTP 400, 403, 404 and 410 fail immediately, because trying again cannot help.
+- 🧪 **Bad content is rejected.** Empty responses and PDFs that do not start with `%PDF` are never saved.
+- 💾 **Partial files never look complete.** Each download goes to a temporary `.part` file and is moved into place only when it is whole.
+- 📋 **Failures are reported, not hidden.** The end of the run lists every file that is still missing and the program exits with a non-zero code.
+- ♻️ **Retrying is just running again.** Existing files are skipped, so the next run only fetches what failed.
 
 ### 🐍 How Python prevents duplicate downloads
 
 An important feature is that existing files are skipped.
 
 This means you can execute:
-
-bash
 
 ```bash
 python3 main.py
@@ -765,47 +780,27 @@ For example:
 | ----------------------------------- | --------------------------------------------------- |
 | First execution                     | Downloads all matching notices not already archived |
 | Second execution                    | Skips existing files                                |
-| New quarterly notice appears        | Downloads the new notice                            |
-| Existing notice is discovered again | Skips its existing file                             |
+| New quarterly notice appears        | Downloads the new text file and the new PDF         |
+| Only the PDF of a notice is missing | Downloads just that PDF                             |
+| A saved PDF is broken               | Downloads it again                                  |
+| Existing notice is discovered again | Skips its existing files                            |
 | Repository is updated               | New files can be committed to GitHub                |
 
 This makes the downloader suitable for scheduled execution.
-
-### 🧪 Preview new documents before downloading
-
-You can use the dry-run option to check which documents the program identifies without saving them.
-
-bash
-
-```bash
-python3 main.py --dry-run --contact-email you@yourdomain.com
-```
-
-When you are ready, run:
-
-bash
-
-```bash
-python3 main.py --contact-email you@yourdomain.com
-```
-
-Replace the example email with an appropriate contact email address.
 
 ### ☁️ Automatically update GitHub using GitHub Actions
 
 Python can perform the downloading, while GitHub Actions can schedule the execution and publish new files to the repository.
 
-Create this file:
+#### The automatic maintenance workflow
 
-text
+Create this file:
 
 ```text
 .github/workflows/quarterly-update.yml
 ```
 
 Add the following configuration:
-
-yaml
 
 ```yaml
 name: Update expatriation notices
@@ -832,15 +827,17 @@ jobs:
           python-version: "3.12"
 
       - name: Download new Federal Register notices
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
         run: |
-          python main.py --contact-email ${{ secrets.CONTACT_EMAIL }}
+          python main.py
 
       - name: Commit and push new documents
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add TXTs/
+          git add TXTs/ PDFs/
 
           git diff --cached --quiet || \
             git commit -m "Add new quarterly expatriation notice"
@@ -848,7 +845,7 @@ jobs:
           git push
 ```
 
-Add a GitHub Actions repository secret named `CONTACT_EMAIL` containing your contact email address.
+Add a GitHub Actions repository secret named `CONTACT_EMAIL` containing your contact email address. The workflow passes it to `main.py` as an environment variable, so no argument is needed.
 
 The workflow checks the Federal Register every Monday at 12:00 UTC. You can also trigger it manually from the GitHub Actions tab.
 
@@ -861,6 +858,7 @@ A weekly schedule offers several advantages:
 - Detects new notices without waiting for someone to run the script.
 - Reduces the possibility of missing a publication.
 - Avoids unnecessary downloads because existing files are skipped.
+- Retries anything that failed the week before.
 - Keeps the GitHub archive updated.
 - Provides a repeatable process that contributors can maintain.
 
@@ -872,9 +870,9 @@ The automated process will:
 
 1. Detect the new publication through the API.
 2. Retrieve its document information.
-3. Download the text version.
-4. Save it under the correct publication-date filename.
-5. Commit the new document to GitHub.
+3. Download the text version and the original PDF.
+4. Save them under the correct publication-date filename in `TXTs/` and `PDFs/`.
+5. Commit the new documents to GitHub.
 6. Make the updated archive available to everyone.
 
 No manual file downloading or uploading is necessary.
@@ -887,7 +885,7 @@ No manual file downloading or uploading is necessary.
 - Keep correction notices rather than silently replacing historical records.
 - Review parsing logic whenever the Federal Register changes its document layout.
 - Recalculate the statistics and update the README when new quarterly lists are added.
-- Preserve the original source documents so researchers can reproduce the results.
+- Preserve the original source documents (text and PDF) so researchers can reproduce the results.
 
 **The main idea:** Python handles data collection, GitHub Actions handles scheduling and publishing, and Git stores the historical archive.
 
@@ -897,7 +895,7 @@ Together, these tools make it possible to maintain a public quarterly expatriati
 
 ## 📚 Sources
 
-- 📁 **The files in `TXTs/`**, downloaded from the Federal Register, are the primary source for every number on this page except where stated.
+- 📁 **The files in `TXTs/`**, downloaded from the Federal Register, are the primary source for every number on this page except where stated. The matching originals are in `PDFs/`.
 - 🏛️ [Federal Register: Quarterly Publication of Individuals, Who Have Chosen To Expatriate](https://www.federalregister.gov/quarterly-publication-of-individuals-who-have-chosen-to-expatriate)
 - 🧑‍💻 [Federal Register API documentation](https://www.federalregister.gov/developers/documentation/api/v1)
 - ⚖️ [26 U.S.C. § 6039G (Cornell Legal Information Institute)](https://www.law.cornell.edu/uscode/text/26/6039G) and the [U.S. Code edition at govinfo](https://www.govinfo.gov/link/uscode/26/6039G?link-type=html) (the 30-day requirement)
@@ -907,6 +905,6 @@ Together, these tools make it possible to maintain a public quarterly expatriati
 
 ## 📝 Disclaimer
 
-This repository is an **unofficial** convenience archive. The Federal Register website itself states that it is not the official legal edition, and the official version is the PDF published through [govinfo.gov](https://www.govinfo.gov/). Counts and commentary here are informational only and are **not legal, tax or immigration advice**. If a decision depends on a specific entry, verify it against the official publication and consult a qualified professional.
+This repository is an **unofficial** convenience archive. The Federal Register website itself states that it is not the official legal edition, and the official version is the PDF published through [govinfo.gov](https://www.govinfo.gov/). Counts and commentary here are informational only and are **not legal, tax or immigration advice**. If a decision depends on a specific entry, verify it against the official publication (the PDF in `PDFs/` or on govinfo.gov) and consult a qualified professional.
 
 ⭐ If this archive is useful to you, consider starring the repository!
